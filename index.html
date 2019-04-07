@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+</head>
+    
+<body>
+
+    <script src="./log.js"></script>
+    <script src="./fileUpload.js"></script>
+    <script src="./video.js"></script>
+    <script>
+        SDK_Debug(false, {
+            timestamp: false,   //打印时间戳
+            Flag: true,     //打印模块标识
+            fileUpload: true,   //文件上传模块日志开关
+            video: true     //视频模块日志开关
+        })
+        // SDK_Debug(false, true);
+    </script>
+</body>
+
+</html>
